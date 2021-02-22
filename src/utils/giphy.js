@@ -28,12 +28,10 @@ export const fetchImages = (q) => {
 			},
 		})
 		.then(( response) => {
-			console.log(response);
 
 			return response.data.data.map((entry) => ({
 				title: entry.title,
 				url: entry.images.downsized_medium.url,
 			}));
-			// Do something with the adress here
 		});
 };
