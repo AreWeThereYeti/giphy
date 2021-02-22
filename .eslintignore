@@ -1,0 +1,8 @@
+# Eslint doesn't do JSON
+**/*.json
+
+# Ignore build files
+build/
+
+# Gulp
+gulp/
